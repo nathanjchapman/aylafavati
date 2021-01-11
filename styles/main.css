@@ -54,6 +54,9 @@ h1 {
 h2 {
     font-size: 2.441rem;
 }
+h2:first-child {
+    margin-top: 0;
+}
 h3 {
     font-size: 1.953rem;
 }
@@ -87,6 +90,11 @@ img + img {
     color: #48699a;
 }
 
+.logo {
+    max-width: 400px;
+    margin-bottom: -2rem;
+}
+
 .logo a {
     text-decoration: none;
 }
@@ -101,6 +109,10 @@ body > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav {
+    margin-bottom: -3rem;
 }
 
 nav a {
@@ -155,6 +167,7 @@ article img {
 .case-study-list-item {
     display: flex;
     margin: 2em 0;
+    align-items: center;
 }
 
 .case-study-list-item > div {
@@ -189,6 +202,7 @@ article img {
 }
 
 .case-study-image {
+    max-width: 250px;
     margin: 0 1em;
 }
 
