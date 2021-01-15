@@ -41,6 +41,9 @@ p {
 a {
     color: #567b7a;
 }
+a:hover {
+    color: #1c1533;
+}
 h1, h2, h3, h4, h5 {
     margin: 3rem 0 1.38rem;
     font-family: 'Cormorant Garamond', serif;
@@ -90,9 +93,13 @@ img + img {
     padding: 0.5em;
     color: white;
     font-weight: bold;
-    box-shadow: 3px 3px #1c1533;
     text-decoration: none;
     margin-right: 0.5em;
+}
+
+.button:hover {
+    background-color: #1c1533;
+    color: white;
 }
 
 .row {
@@ -104,7 +111,6 @@ img + img {
 
 .logo h1 {
     margin-bottom: 0;
-    color: #48699a;
 }
 
 .logo {
@@ -270,19 +276,15 @@ blockquote {
 /* Scroll-to-top button
    ========================================================================== */
 #to-top-button {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 4.75rem; /* Place the button at the bottom of the page */
-  right: 0.5rem; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  display: none;
+  position: fixed;
+  bottom: 4.75rem;
+  right: 0.5rem;
+  z-index: 99;
+  cursor: pointer;
   border: none;
-  padding: 15px; /* Some padding */
-  font-size: 18px; /* Increase font size */
-}
-
-#to-top-button:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  padding: 15px;
+  font-size: 18px;
 }
 
 
