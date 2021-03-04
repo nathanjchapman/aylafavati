@@ -49,7 +49,7 @@ In the top folder (`aylafavati/`) you will see the following items:
 
 ## Publishing Changes
 
-- Open the Terminal app and navigate to the project on your computer using (example: `cd /Documents/Development/aylafavati`)
+- Open the Terminal app and navigate to the project on your computer using `cd /Documents/development/websites/aylafavati`)
     - If you have the folder already open in finder, in Terminal you can type `cd ` (add a space), the drag and drop the folder from Finder into the Terminal and it will paste the directory path and you can press `Enter` to navigate there.
 - Open the Folder in Sublime Text
 - Make your changes, save the files.
