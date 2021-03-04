@@ -50,14 +50,23 @@ In the top folder (`aylafavati/`) you will see the following items:
 ## Publishing Changes
 
 - Open the Terminal app and navigate to the project on your computer using (example: `cd /Documents/Development/aylafavati`)
-    - If you have the folder already open in finder, in Terminal you can type `cd ` (add a space), the drag and drop the folder from Finder into the Terminal and it will paste the directory path and you can press `enter` to navigate there.
+    - If you have the folder already open in finder, in Terminal you can type `cd ` (add a space), the drag and drop the folder from Finder into the Terminal and it will paste the directory path and you can press `Enter` to navigate there.
 - Open the Folder in Sublime Text
 - Make your changes, save the files.
 - Now back in your terminal you can type `git status` to see the files that were edited.
 - Type `git diff` to see the changes made.
 - To save your changes:
-    - `git add .` press `enter`
-    - `git commit -m "Brief, one line description of your changes"` press `enter`
+    - `git add .` press `Enter`
+    - `git commit -m "Brief, one line description of your changes"` press `Enter`
+    - Example output:
+    ```
+    [nathanchapman@carbon aylafavati]$ git commit -m "Add README"
+    [master bf9a8b7] Add README
+     1 file changed, 68 insertions(+)
+     create mode 100644 README.md
+    ```
+- Push your local changes to GitHub:
+    - `git push origin master` press `Enter`
 
 
 ## Image Sizes
