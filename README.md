@@ -49,7 +49,7 @@ In the top folder (`aylafavati/`) you will see the following items:
 
 ## Publishing Changes
 
-- Open the Terminal app and navigate to the project on your computer using `cd /Documents/development/websites/aylafavati`)
+- Open the Terminal app and navigate to the project on your computer using `cd /Documents/development/websites/aylafavati`
     - If you have the folder already open in finder, in Terminal you can type `cd ` (add a space), the drag and drop the folder from Finder into the Terminal and it will paste the directory path and you can press `Enter` to navigate there.
 - Always run `git pull` first, just to check for updates.
 - Open the Folder in Sublime Text
